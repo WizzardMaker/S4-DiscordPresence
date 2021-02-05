@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="discord">
+      <UniqueIdentifier>{a253d0d1-2355-474f-8908-ed3dcd0c4f91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="S4ModApi.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\cpp\achievement_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\cpp\activity_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\cpp\application_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\cpp\core.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\cpp\discord.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\cpp\event.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\cpp\ffi.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\cpp\image_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\cpp\lobby_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\cpp\network_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\cpp\overlay_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\cpp\relationship_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\cpp\storage_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\cpp\store_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\cpp\types.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\cpp\user_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\cpp\voice_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\cpp\activity_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\cpp\application_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\cpp\core.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\cpp\image_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\cpp\lobby_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\cpp\network_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\cpp\overlay_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\cpp\relationship_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\cpp\storage_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\cpp\store_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\cpp\types.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\cpp\user_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\cpp\voice_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\cpp\achievement_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="S4ModApi.lib">
+      <Filter>Ressourcendateien</Filter>
+    </Library>
+    <Library Include="discord\lib\x86\discord_game_sdk.dll.lib">
+      <Filter>discord</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="discord\lib\x86\discord_game_sdk.dll">
+      <Filter>discord</Filter>
+    </None>
+  </ItemGroup>
+</Project>
